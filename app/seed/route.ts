@@ -1,4 +1,8 @@
-import bcrypt from 'bcrypt';
+// Replace this:
+
+
+// With this:
+import bcrypt from "bcryptjs";
 import postgres from 'postgres';
 import { invoices, customers, revenue, users } from '../lib/placeholder-data';
 
